@@ -12,6 +12,7 @@ ul, ol{
 
 /* Header */
 .logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -19,14 +20,13 @@ ul, ol{
     text-transform: uppercase;
     color: #2e2f42;
 }
+
 .logo-part{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
+
 }
+
 .studio, .portfolio, .contacts{
     font-weight: 500;
     font-size: 16px;
@@ -34,6 +34,15 @@ ul, ol{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+.studio:hover, .studio:active{
+    color: #404bbf;
+}
+
+.portfolio:hover, .contacts:hover{
+    color: #404bbf;
+}
+
 .email, .telefon{
     font-weight: 400;
     font-size: 16px;
@@ -41,6 +50,12 @@ ul, ol{
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.email:hover, .telefon:hover{
+    color: #404bbf;
+}
+
+
 /* Intro */
 
 .section-intro{
@@ -63,11 +78,97 @@ ul, ol{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
+.order-button:hover{
+    background: #404bbf;
+}
 
+/* Section titles */
 
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+/* Info content */
+
+.benefits{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.benefits-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Team */
+
+/* .team-cards{
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+} */
+
+.team-member{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455; 
+}
+
+/* Portfolio */
+
+.portfolio-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-list-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer */
+
+footer{
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
