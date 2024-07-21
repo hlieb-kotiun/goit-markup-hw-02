@@ -1,6 +1,6 @@
  body{ 
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;; 
+    color: #434455; 
     background-color: #FFFFFF; 
 } 
 a{
@@ -15,15 +15,15 @@ ul, ol{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-part{
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
+    color: #2e2f42;
 
 }
 
@@ -60,19 +60,18 @@ ul, ol{
 
 .section-intro{
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .page-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 .order-button{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -80,16 +79,17 @@ ul, ol{
     color: #fff;
     background: #4d5ae5;
 }
-.order-button:hover{
-    background: #404bbf;
+.order-button:focus{
+    background-color: #404bbf;
 }
 
 /* Section titles */
 
 .section-title{
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -115,11 +115,13 @@ ul, ol{
 
 /* Team */
 
-/* .team-cards{
-    width: 1440px;
-    height: 732px;
-    background: #f4f4fd;
-} */
+.list-item{
+    background-color: #FFFFFF;
+}
+
+.team-cards{
+    background-color: #f4f4fd;
+} 
 
 .team-member{
     font-weight: 500;
@@ -161,8 +163,6 @@ ul, ol{
 
 footer{
     background-color: #2e2f42;
-    width: 1440px;
-    height: 312px;
 }
 .footer-logo{
     font-family: "Raleway", sans-serif;
@@ -170,19 +170,19 @@ footer{
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
+    text-transform: uppercase;  
+    color: #4d5ae5;
 }
 
 .footer-logo-part{
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
