@@ -27,7 +27,7 @@ ul, ol{
 
 }
 
-.studio, .portfolio, .contacts{
+.navigation-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -35,7 +35,7 @@ ul, ol{
     color: #2e2f42;
 }
 
-.studio:hover, .studio:active{
+.navigation-item:hover, .navigation-item:focus{
     color: #404bbf;
 }
 
@@ -43,7 +43,7 @@ ul, ol{
     color: #404bbf;
 }
 
-.email, .telefon{
+.contacts{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -51,7 +51,7 @@ ul, ol{
     color: #434455;
 }
 
-.email:hover, .telefon:hover{
+.contacts:hover, .contacts:focus{
     color: #404bbf;
 }
 
@@ -79,8 +79,9 @@ ul, ol{
     color: #fff;
     background: #4d5ae5;
 }
-.order-button:focus{
+.order-button:hover{
     background-color: #404bbf;
+    cursor: pointer;
 }
 
 /* Section titles */
