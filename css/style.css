@@ -43,6 +43,10 @@ ul, ol{
     color: #404bbf;
 }
 
+.contact-info{
+    font-style: normal;
+}
+
 .contacts{
     font-weight: 400;
     font-size: 16px;
@@ -78,10 +82,11 @@ ul, ol{
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
-}
-.order-button:hover{
-    background-color: #404bbf;
     cursor: pointer;
+}
+.order-button:hover, .order-buttom:focus{
+    background-color: #404bbf;
+    
 }
 
 /* Section titles */
