@@ -84,7 +84,7 @@ ul, ol{
     background: #4d5ae5;
     cursor: pointer;
 }
-.order-button:hover, .order-button.benefits{
+.order-button:hover, .order-button:focus{
     background-color: #404bbf;
     
 }
@@ -188,7 +188,7 @@ ul, ol{
 .footer-text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.15;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
